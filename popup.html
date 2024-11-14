@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Enable User Select</title>
+        <meta name="description" content="Forces user-select property to be enabled on all elements." />
+        <link rel="stylesheet" href="popup.css" />
+        <link rel="manifest" href="manifest.json" />
+    </head>
+
+    <body>
+        <h1>Enable User Select</h1>
+
+        <div class="toggle-container">
+            <label for="toggle-input" class="toggle-label">
+                Enable text selection
+                <div
+                    class="toggle"
+                    role="switch"
+                    aria-checked="false"
+                    aria-labelledby="toggle-input-label"
+                    aria-describedby="toggle-description"
+                >
+                    <input
+                        type="checkbox"
+                        id="toggle-input"
+                        aria-labelledby="popup-title toggle-input-label"
+                        aria-checked="false"
+                    />
+                    <span class="toggle-slider" aria-hidden="true" tabindex="0" role="presentation"></span>
+                </div>
+            </label>
+        </div>
+
+        <div id="toggle-description" class="info-box" role="region">
+            <p>
+                Enabling this option allows you to freely select and copy text on web pages that may have restricted
+                text selection.
+            </p>
+            <p>To toggle this setting, simply use the checkbox above.</p>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
