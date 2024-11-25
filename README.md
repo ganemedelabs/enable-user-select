@@ -4,17 +4,11 @@ This Chrome extension forces the `user-select` property to be enabled on all ele
 
 ## 📋 Table of Contents
 
--   [Features](#-features)
 -   [Installation](#-installation)
 -   [Usage](#-usage)
 -   [Files](#-files)
 -   [License](#-license)
 -   [Contact](#-contact)
-
-## ✨ Features
-
--   Enables text selection on restricted web pages.
--   Toggle functionality to enable or disable text selection from the extension’s popup.
 
 ## 🔧 Installation
 
