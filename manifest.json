@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Enable User Select",
+    "author": "ganemedelabs",
     "version": "1.0.0",
     "description": "Forces user-select property to be enabled on all elements.",
     "permissions": ["activeTab", "scripting", "storage"],
