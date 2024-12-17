@@ -20,12 +20,10 @@ style.innerHTML = `
     }
 `;
 
-// Load the initial state from storage and apply
 chrome.storage.sync.get("userSelectEnabled", (data) => {
     applyUserSelect(data.userSelectEnabled !== false); // default to enabled
 });
 
-// Listen for messages from popup.js
 chrome.runtime.onMessage.addListener((message) => {
     if (message.userSelectEnabled !== undefined) {
         applyUserSelect(message.userSelectEnabled);

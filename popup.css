@@ -30,6 +30,7 @@ body {
     padding: 20px;
     width: 250px;
     text-align: center;
+    user-select: none;
 }
 
 h1 {
@@ -37,6 +38,10 @@ h1 {
     color: var(--primary-color);
     margin-bottom: 20px;
     margin-top: 0;
+}
+
+.selectable {
+    user-select: text;
 }
 
 /* Toggle Styles */
@@ -95,6 +100,11 @@ h1 {
     background-color: var(--toggle-slider-color);
     border-radius: 50%;
     transition: transform 0.2s ease-out;
+}
+
+.no-transition .toggle-slider,
+.no-transition .toggle-slider:before {
+    transition: none !important;
 }
 
 #toggle-input:checked + .toggle-slider {
