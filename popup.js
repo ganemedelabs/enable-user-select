@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateTextSelection(enabled) {
         if (enabled) {
             body.classList.add("selectable");
+            chrome.action.setIcon({ path: "images/icon-48.png" });
         } else {
             body.classList.remove("selectable");
+            chrome.action.setIcon({ path: "images/icon-48-disabled.png" });
         }
     }
 

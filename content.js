@@ -21,7 +21,7 @@ style.innerHTML = `
 `;
 
 chrome.storage.sync.get("userSelectEnabled", (data) => {
-    applyUserSelect(data.userSelectEnabled !== false); // default to enabled
+    applyUserSelect(data.userSelectEnabled !== false); // Default to enabled
 });
 
 chrome.runtime.onMessage.addListener((message) => {
