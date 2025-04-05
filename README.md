@@ -1,5 +1,9 @@
 # Enable User Select Chrome Extension
 
+![Code size](https://custom-icon-badges.demolab.com/github/languages/code-size/ganemedelabs/enable-user-select?logo=file-code&logoColor=white)
+![JavaScript](https://custom-icon-badges.demolab.com/badge/JavaScript-Vanilla-F7DF1E.svg?logo=javascript&logoColor=white)
+![License](https://custom-icon-badges.demolab.com/github/license/ganemedelabs/enable-user-select?logo=law)
+
 This Chrome extension forces the `user-select` property to be enabled on all elements, allowing users to select and copy text on web pages that may have restricted text selection.
 
 ## 📋 Table of Contents
