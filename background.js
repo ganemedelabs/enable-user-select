@@ -5,7 +5,7 @@ function updateIcon(enabled) {
 
 function getUserSelectEnabled(callback) {
     chrome.storage.sync.get("userSelectEnabled", (data) => {
-        const enabled = data.userSelectEnabled !== false; // Default to enabled
+        const enabled = data.userSelectEnabled !== false;
         callback(enabled);
     });
 }

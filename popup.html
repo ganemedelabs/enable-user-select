@@ -13,32 +13,32 @@
         <h1>Enable User Select</h1>
 
         <div class="toggle-container">
-            <label for="toggle-input" class="toggle-label">
+            <label for="main-toggle" class="toggle-label">
                 Enable text selection
-                <div
-                    class="toggle"
-                    role="switch"
-                    aria-checked="false"
-                    aria-labelledby="toggle-input-label"
-                    aria-describedby="toggle-description"
-                >
-                    <input
-                        type="checkbox"
-                        id="toggle-input"
-                        aria-labelledby="popup-title toggle-input-label"
-                        aria-checked="false"
-                    />
-                    <span class="toggle-slider" tabindex="0" role="presentation"></span>
+                <div class="toggle" role="switch">
+                    <input type="checkbox" id="main-toggle" class="toggle-input" />
+                    <span class="toggle-slider"></span>
                 </div>
             </label>
         </div>
 
-        <div id="toggle-description" class="info-box" role="region">
-            <p>
-                Enabling this option allows you to freely select and copy text on web pages that may have restricted
-                text selection.
-            </p>
-            <p>To toggle this setting, simply use the checkbox above.</p>
+        <div class="toggle-container">
+            <label for="aggressive-toggle" class="toggle-label">
+                Aggressive mode
+                <div class="toggle" role="switch">
+                    <input type="checkbox" id="aggressive-toggle" class="toggle-input" />
+                    <span class="toggle-slider"></span>
+                </div>
+            </label>
+            <small class="toggle-description">
+                Unblocks sites that use JavaScript to disable selection. Use only if normal mode doesn't work — this may
+                break some interactive pages.
+            </small>
+        </div>
+
+        <div class="info-box" role="region">
+            Enabling this extension allows you to freely select and copy text on web pages that may have restricted text
+            selection.
         </div>
 
         <script src="popup.js"></script>

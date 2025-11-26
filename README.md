@@ -10,7 +10,6 @@ This Chrome extension forces the `user-select` property to be enabled on all ele
 
 -   [Installation](#-installation)
 -   [Usage](#-usage)
--   [Files](#-files)
 -   [License](#-license)
 -   [Contact](#-contact)
 
@@ -25,14 +24,7 @@ This Chrome extension forces the `user-select` property to be enabled on all ele
 
 -   Click on the extension icon in the Chrome toolbar.
 -   Use the toggle checkbox to enable or disable text selection on the current web page.
--   Default state: Enabled.
-
-## 📁 Files
-
--   `popup.html`: The popup interface with the toggle button and information box.
--   `popup.css`: Styles for the popup.
--   `popup.js`: Handles popup interactions and saves the toggle state.
--   `content.js`: Applies the `user-select` CSS rules to the webpage.
+-   Enable `agressive mode` to unblock sites that use JavaScript to disable selection. Use only if normal mode doesn't work because this may break some interactive pages.
 
 ## 📜 License
 
