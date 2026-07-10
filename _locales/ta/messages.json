@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "உரை தேர்வை அனுமதி",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "அனைத்து கூறுகளிலும் பயனர் தேர்வுப் பண்பை (user-select) கட்டாயமாக இயக்குகிறது.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "உரை தேர்வை அனுமதி",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "தீவிர பயன்முறை (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "தேர்வை முடக்க ஜாவாஸ்கிரிப்டைப் பயன்படுத்தும் தளங்களைத் தடுக்க நீக்குகிறது. சாதாரண பயன்முறை வேலை செய்யவில்லை என்றால் மட்டுமே இதைப் பயன்படுத்தவும் — இது சில ஊடாடும் பக்கங்களை பாதிக்கலாம்.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "இந்த நீட்டிப்பை இயக்குவதன் மூலம், உரை தேர்வு கட்டுப்படுத்தப்பட்டுள்ள வலைப்பக்கங்களிலும் நீங்கள் சுதந்திரமாக உரையைத் தேர்ந்தெடுத்து நகலெடுக்கலாம்.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Salli tekstivalinta",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Pakottaa user-select-ominaisuuden käyttöön kaikissa elementeissä.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Salli tekstivalinta",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Aggressiivinen tila",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Poistaa eston sivustoilta, jotka käyttävät JavaScriptiä valinnan estämiseen. Käytä vain, jos normaali tila ei toimi – tämä saattaa rikkoa joidenkin interaktiivisten sivujen toiminnan.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Tämän laajennuksen ottaminen käyttöön mahdollistaa tekstin vapaan valinnan ja kopioinnin verkkosivuilla, joissa tekstin valintaa on rajoitettu.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

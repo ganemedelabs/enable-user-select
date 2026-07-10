@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Textauswahl aktivieren (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Erzwingt die Aktivierung der Eigenschaft 'user-select' auf allen Elementen.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Textauswahl aktivieren",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Aggressiver Modus",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Entsperrt Websites, die JavaScript verwenden, um die Auswahl zu deaktivieren. Nur verwenden, wenn der normale Modus nicht funktioniert – dies kann die Funktionalität einiger interaktiver Seiten beeinträchtigen.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Wenn Sie diese Erweiterung aktivieren, können Sie Text auf Webseiten, die die Textauswahl einschränken, frei auswählen und kopieren.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

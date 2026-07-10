@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Activare selectare text",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Forțează activarea proprietății user-select pe toate elementele.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Activare selectare text",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Mod agresiv",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Deblochează site-urile care folosesc JavaScript pentru a dezactiva selectarea. Folosiți doar dacă modul normal nu funcționează — acest lucru poate afecta funcționarea unor pagini interactive.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Activarea acestei extensii vă permite să selectați și să copiați liber textul de pe paginile web care pot avea selectarea textului restricționată.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

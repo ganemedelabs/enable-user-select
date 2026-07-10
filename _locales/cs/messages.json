@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Povolit výběr textu",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Vynutí povolení vlastnosti user-select u všech prvků.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Povolit výběr textu",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agresivní režim",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Odblokuje stránky, které k zakázání výběru používají JavaScript. Použijte pouze v případě, že normální režim nefunguje – může to narušit funkčnost některých interaktivních stránek.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Povolení tohoto rozšíření vám umožní svobodně vybírat a kopírovat text na webových stránkách, které mohou mít výběr textu omezen.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Włącz zaznaczanie użytkownika",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Wymusza włączenie właściwości user-select na wszystkich elementach.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Włącz zaznaczanie tekstu",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Tryb agresywny",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Odblokowuje strony używające JavaScriptu do blokowania zaznaczania. Używaj tylko, gdy tryb normalny nie działa — może to uszkodzić niektóre interaktywne elementy stron.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Włączenie tego rozszerzenia pozwala na swobodne zaznaczanie i kopiowanie tekstu na stronach internetowych, które mogą mieć ograniczone zaznaczanie tekstu.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

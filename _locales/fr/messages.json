@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Activer la sélection de texte",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Force l'activation de la propriété user-select sur tous les éléments.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Activer la sélection de texte",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Mode agressif",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Débloque les sites qui utilisent JavaScript pour désactiver la sélection. À n'utiliser que si le mode normal ne fonctionne pas — cela peut perturber le fonctionnement de certaines pages interactives.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "L'activation de cette extension vous permet de sélectionner et de copier librement du texte sur les pages web dont la sélection est restreinte.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

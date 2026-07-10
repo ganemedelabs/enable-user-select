@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "启用用户文本选择 (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "强制在所有元素上启用 user-select 属性。",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "启用文本选择",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "强力模式 (Aggressive mode)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "解除通过 JavaScript 禁用文本选择的的网页限制。仅在常规模式无效时使用 — 这可能会导致某些交互式页面无法正常工作。",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "启用此扩展程序可以让你在受到文本选择限制的网页上，自由地选择并复制文本。",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

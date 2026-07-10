@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Cho phép chọn văn bản",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Bắt buộc thuộc tính user-select phải được bật trên tất cả các thành phần.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Cho phép chọn văn bản",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Chế độ chuyên sâu (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Mở khóa các trang web sử dụng JavaScript để tắt tính năng chọn. Chỉ sử dụng nếu chế độ bình thường không hoạt động — điều này có thể làm hỏng một số trang tương tác.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Bật tiện ích mở rộng này cho phép bạn tự do chọn và sao chép văn bản trên các trang web có thể đã bị hạn chế sao chép.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "เปิดใช้งานการเลือกข้อความ",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "บังคับให้เปิดใช้งานคุณสมบัติ user-select ในทุกองค์ประกอบบนหน้าเว็บ",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "เปิดใช้งานการเลือกข้อความ",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "โหมดรุนแรง (Aggressive mode)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "ปลดล็อกไซต์ที่ใช้ JavaScript เพื่อปิดใช้งานการเลือกข้อความ ใช้เมื่อโหมดปกติไม่ได้ผลเท่านั้น — โหมดนี้อาจทำให้หน้าเว็บที่มีการโต้ตอบบางหน้าทำงานผิดปกติได้",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "การเปิดใช้งานส่วนขยายนี้จะช่วยให้คุณสามารถเลือกและคัดลอกข้อความได้อย่างอิสระบนหน้าเว็บที่มีการจำกัดการเลือกข้อความไว้",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

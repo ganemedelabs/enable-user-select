@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "تفعيل تحديد النص (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "فرض تفعيل خاصية تحديد المستخدم (user-select) على جميع العناصر.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "تفعيل تحديد النص",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "الوضع المتقدم (العدواني)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "إلغاء حظر المواقع التي تستخدم الجافا سكريبت لتعطيل التحديد. استخدمه فقط إذا لم ينجح الوضع العادي — فقد يؤدي ذلك إلى تعطيل بعض الصفحات التفاعلية.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "يتيح لك تفعيل هذه الإضافة تحديد النصوص ونسخها بحرية على صفحات الويب التي قد تفرض قيوداً على تحديد النصوص.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

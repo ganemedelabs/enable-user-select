@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "ടെക്സ്റ്റ് സെലക്ഷൻ പ്രവർത്തനക്ഷമമാക്കുക",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "എല്ലാ ഘടകങ്ങളിലും user-select പ്രോപ്പർട്ടി നിർബന്ധിതമായി പ്രവർത്തനക്ഷമമാക്കുന്നു.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "ടെക്സ്റ്റ് സെലക്ഷൻ പ്രവർത്തനക്ഷമമാക്കുക",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "അഗ്രസീവ് മോഡ്",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "സെലക്ഷൻ പ്രവർത്തനരഹിതമാക്കാൻ ജാവാസ്ക്രിപ്റ്റ് ഉപയോഗിക്കുന്ന സൈറ്റുകളെ അൺബ്ലോക്ക് ചെയ്യുന്നു. സാധാരണ മോഡ് പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ മാത്രം ഉപയോഗിക്കുക — ഇത് ചില ഇൻ്ററാക്ടീവ് പേജുകളെ ബാധിച്ചേക്കാം.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "ഈ എക്സ്റ്റൻഷൻ പ്രവർത്തനക്ഷമമാക്കുന്നത് വഴി, ടെക്സ്റ്റ് സെലക്ഷൻ നിയന്ത്രിച്ചിട്ടുള്ള വെബ് പേജുകളിലും നിങ്ങൾക്ക് സ്വതന്ത്രമായി ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കാനും കോപ്പി ചെയ്യാനും സാധിക്കും.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

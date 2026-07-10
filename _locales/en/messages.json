@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Enable User Select",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Forces user-select property to be enabled on all elements.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Enable text selection",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Aggressive mode",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Unblocks sites that use JavaScript to disable selection. Use only if normal mode doesn't work — this may break some interactive pages.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Enabling this extension allows you to freely select and copy text on web pages that may have restricted text selection.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Szövegkijelölés engedélyezése",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Kényszeríti az user-select tulajdonság engedélyezését minden elemen.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Szövegkijelölés engedélyezése",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agresszív mód",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Feloldja azokat az oldalakat, amelyek JavaScriptet használnak a kijelölés letiltására. Csak akkor használd, hatha a normál mód nem működik — ez hibát okozhat néhány interaktív oldalon.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Ezen bővítmény engedélyezésével szabadon kijelölhetsz és másolhatsz szöveget olyan weboldalakon, amelyeken a szövegkijelölés korlátozott lehet.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

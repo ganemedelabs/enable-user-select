@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "ಪಠ್ಯ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "ಎಲ್ಲಾ ಎಲಿಮೆಂಟ್‌ಗಳಲ್ಲಿ user-select ಪ್ರಾಪರ್ಟಿಯನ್ನು ಕಡ್ಡಾಯವಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "ಪಠ್ಯ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "ಆಕ್ರಮಣಕಾರಿ ಮೋಡ್ (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "ಆಯ್ಕೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್ ಬಳಸುವ ಸೈಟ್‌ಗಳನ್ನು ಅನ್‌ಬ್ಲಾಕ್ ಮಾಡುತ್ತದೆ. ಸಾಮಾನ್ಯ ಮೋಡ್ ಕೆಲಸ ಮಾಡದಿದ್ದರೆ ಮಾತ್ರ ಬಳಸಿ — ಇದು ಕೆಲವು ಇಂಟರಾಕ್ಟಿವ್ ಪುಟಗಳನ್ನು ಹಾನಿಗೊಳಿಸಬಹುದು.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವುದರಿಂದ ನಿರ್ಬಂಧಿತ ಪಠ್ಯ ಆಯ್ಕೆ ಹೊಂದಿರುವ ವೆಬ್ ಪುಟಗಳಲ್ಲಿ ನೀವು ಮುಕ್ತವಾಗಿ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು ಮತ್ತು ನಕಲಿಸಬಹುದು.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

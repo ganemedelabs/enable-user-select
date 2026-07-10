@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Įgalinti teksto žymėjimą",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Priverstinai įjungia „user-select“ savybę visiems elementams.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Įgalinti teksto žymėjimą",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agresyvus režimas",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Atblokuoja svetaines, kurios naudoja „JavaScript“ žymėjimui išjungti. Naudokite tik tuo atveju, jei įprastas režimas neveikia – tai gali sutrikdyti kai kurių interaktyvių puslapių veikimą.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Įgalinus šį plėtinį, galite laisvai žymėti ir kopijuoti tekstą tinklalapiuose, kuriuose teksto žymėjimas gali būti apribotas.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

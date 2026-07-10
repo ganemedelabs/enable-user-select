@@ -1,4 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
+    document.documentElement.lang = chrome.i18n.getUILanguage();
+    document.documentElement.dir = chrome.i18n.getMessage("@@bidi_dir");
+
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const messageKey = element.getAttribute("data-i18n");
+        const localizedMessage = chrome.i18n.getMessage(messageKey);
+        if (localizedMessage) {
+            element.textContent = localizedMessage;
+        }
+    });
+
     const checkbox = document.getElementById("main-toggle");
     const aggressiveBox = document.getElementById("aggressive-toggle");
 

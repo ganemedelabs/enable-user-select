@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Омогући избор текста",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Присилно омогућава својство user-select на свим елементима.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Омогући избор текста",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Агресивни режим",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Одблокира сајтове који користе JavaScript за онемогућавање избора. Користите само ако нормалан режим не ради — ово може пореметити рад неких интерактивних страница.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Омогућавање овог проширења вам омогућава да слободно бирате и копирате текст на веб страницама које можда имају ограничен избор текста.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "টেক্সট নির্বাচন সক্ষম করুন (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "সব উপাদানে টেক্সট সিলেকশন প্রপার্টি বাধ্যতামূলকভাবে চালু করে।",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "টেক্সট নির্বাচন সক্ষম করুন",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "আগ্রাসী মোড (Aggressive mode)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "যেসব সাইট টেক্সট সিলেকশন বন্ধ করতে জাভাস্ক্রিপ্ট ব্যবহার করে সেগুলোকে আনব্লক করে। সাধারণ মোড কাজ না করলেই কেবল এটি ব্যবহার করুন — এটি কিছু ইন্টারেক্টিভ পেজ নষ্ট করতে পারে।",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "এই এক্সটেনশনটি চালু করলে আপনি যেসব ওয়েব পেজে টেক্সট নির্বাচন সীমাবদ্ধ করা আছে, সেখানেও অবাধে টেক্সট নির্বাচন এবং কপি করতে পারবেন।",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

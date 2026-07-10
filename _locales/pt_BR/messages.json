@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Ativar Seleção de Usuário",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Força a propriedade user-select a ser ativada em todos os elementos.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Ativar seleção de texto",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Modo agressivo",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Desbloqueia sites que usam JavaScript para desativar a seleção. Use apenas se o modo normal não funcionar — isso pode quebrar algumas páginas interativas.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Ativar esta extensão permite que você selecione e copie textos livremente em páginas da web que possam ter restrições de seleção de texto.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

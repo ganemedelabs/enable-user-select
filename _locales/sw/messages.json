@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Wezesha Teuzi ya Mtumiaji",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Inalazimisha mali ya user-select kuwezeshwa kwenye vipengele vyote.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Wezesha uteuzi wa maandishi",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Hali ya uchokozi (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Inafungua tovuti zinazotumia JavaScript kuzima uteuzi. Tumia tu ikiwa hali ya kawaida haifanyi kazi — hii inaweza kuharibu baadhi ya kurasa shirikishi.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Kuwezesha kiendelezi hiki hukuruhusu kuchagua na kunakili maandishi kwa uhuru kwenye kurasa za wavuti ambazo zinaweza kuwa na uteuzi mdogo wa maandishi.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "I-enable ang Pagpili ng Teksto",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Pinipilit ang user-select property na maging enabled sa lahat ng elemento.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "I-enable ang pagpili ng teksto",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Aggressive mode",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Nag-a-unblock sa mga site na gumagamit ng JavaScript para i-disable ang pagpili. Gamitin lang kung hindi gumagana ang normal mode — maaari nitong masira ang ilang interactive na pahina.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Ang pag-enable sa extension na ito ay nagpapahintulot sa iyo na malayang pumili at kumopya ng teksto sa mga web page na may pinaghihigpitang pagpili ng teksto.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

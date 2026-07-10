@@ -1,12 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Enable User Select",
+    "name": "__MSG_extensionName__",
     "author": "ganemedelabs",
-    "version": "2.0.0",
-    "description": "Forces user-select property to be enabled on all elements.",
+    "version": "2.1.0",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
     "permissions": ["activeTab", "storage"],
     "action": {
-        "default_title": "Enable User Select",
+        "default_title": "__MSG_extensionName__",
         "default_popup": "popup.html"
     },
     "background": {

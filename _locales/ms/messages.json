@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Aktifkan Pilihan Teks",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Memaksa sifat user-select diaktifkan pada semua elemen.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Aktifkan pilihan teks",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Mod agresif",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Nyahsekat tapak जो menggunakan JavaScript untuk melumpuhkan pilihan. Gunakan hanya jika mod biasa tidak berfungsi — ini boleh menjejaskan beberapa halaman interaktif.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Mengaktifkan sambungan ini membolehkan anda bebas memilih dan menyalin teks pada halaman web yang mungkin mempunyai sekatan pilihan teks.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

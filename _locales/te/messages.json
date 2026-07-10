@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "టెక్స్ట్ ఎంపికను అనుమతించు",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "అన్ని ఎలిమెంట్స్‌పై user-select ప్రాపర్టీని ఖచ్చితంగా ఎనేబుల్ చేస్తుంది.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "టెక్స్ట్ ఎంపికను అనుమతించు",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "అగ్రెసివ్ మోడ్",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "సెలెక్షన్‌ను నిలిపివేయడానికి జావాస్క్రిప్ట్ ఉపయోగించే ಸೈಟ್‌లను అన్‌బ్లాక్ చేస్తుంది. సాధారణ మోడ్ పని చేయనప్పుడు మాత్రమే ఉపయోగించండి — ఇది కొన్ని ఇంటరాక్టివ్ పేజీల పనితీరును దెబ్బతీయవచ్చు.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "ఈ ఎక్స్‌టెన్షన్‌ను ఎనేబుల్ చేయడం ద్వారా, టెక్స్ట్ సెలెక్షన్ పరిమితం చేయబడిన వెబ్ పేజీలలో కూడా మీరు స్వేచ్ఛగా టెక్స్ట్‌ను ఎంచుకుని, కాపీ చేసుకోవచ్చు.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

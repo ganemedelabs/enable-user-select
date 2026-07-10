@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "テキスト選択を有効化 (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "すべての要素で user-select 属性を強制的に有効にします。",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "テキスト選択を有効にする",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "強力モード",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "JavaScript を使用して選択を禁止しているサイトのロックを解除します。通常モードが機能しない場合のみ使用してください。一部のインタラクティブなページが正常に動作しなくなる可能性があります。",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "この拡張機能を有効にすると、テキストの選択やコピーが制限されているウェブページでも、自由にテキストを選択してコピーできるようになります。",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "드래그 및 텍스트 선택 활성화",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "모든 요소에서 user-select 속성을 강제로 활성화합니다.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "텍스트 선택 활성화",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "강력 모드 (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "JavaScript를 사용하여 선택을 차단하는 사이트를 해제합니다. 일반 모드가 작동하지 않을 때만 사용하세요. 일부 대화형 페이지가 제대로 작동하지 않을 수 있습니다.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "이 확장 프로그램을 활성화하면 텍스트 선택 및 복사가 제한된 웹 페이지에서도 자유롭게 텍스트를 드래그하고 복사할 수 있습니다.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

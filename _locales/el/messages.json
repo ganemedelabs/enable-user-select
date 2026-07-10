@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Ενεργοποίηση επιλογής κειμένου",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Επιβάλλει την ενεργοποίηση της ιδιότητας user-select σε όλα τα στοιχεία.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Ενεργοποίηση επιλογής κειμένου",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Επιθετική λειτουργία",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Ξεκλειδώνει ιστότοπους που χρησιμοποιούν JavaScript για να απενεργοποιήσουν την επιλογή. Χρησιμοποιήστε το μόνο εάν η κανονική λειτουργία δεν λειτουργεί — αυτό μπορεί να προκαλέσει προβλήματα σε ορισμένες διαδραστικές σελίδες.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Η ενεργοποίηση αυτής της επέκτασης σας επιτρέπει να επιλέγετε και να αντιγράφετε ελεύθερα κείμενο σε ιστοσελίδες που ενδέχεται να έχουν περιορισμούς στην επιλογή κειμένου.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

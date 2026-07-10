@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Tekstselectie inschakelen",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Dwingt de eigenschap user-select af op alle elementen.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Tekstselectie inschakelen",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agressieve modus",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Deblokkeert sites die JavaScript gebruiken om selectie uit te schakelen. Alleen gebruiken als de normale modus niet werkt — dit kan sommige interactieve pagina's verstoren.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Door deze extensie in te schakelen, kunt u vrijelijk tekst selecteren en kopiëren op webpagina's die mogelijk beperkte tekstselectie hebben.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

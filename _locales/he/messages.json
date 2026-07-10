@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "אפשר בחירת טקסט",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "כופה הפעלת מאפיין user-select על כל האלמנטים בדף.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "אפשר בחירת טקסט",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "מצב אגרסיבי",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "משחרר חסימה באתרים המשתמשים ב-JavaScript כדי להשבית בחירת טקסט. השתמש רק אם המצב הרגיל לא עובד — הדבר עלול לשבש את פעילותם של דפים אינטראקטיביים מסוימים.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "הפעלת תוסף זה מאפשרת לך לבחור ולהעתיק טקסט באופן חופשי בדפי אינטרנט שבהם בחירת הטקסט מוגבלת או חסומה.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

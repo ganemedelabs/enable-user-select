@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "ટેક્સ્ટ પસંદગી સક્ષમ કરો",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "બધા એલિમેન્ટ્સ પર user-select પ્રોપર્ટીને ફરજિયાત સક્ષમ કરે છે.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "ટેક્સ્ટ પસંદગી સક્ષમ કરો",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "આક્રમક મોડ (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "પસંદગીને અક્ષમ કરવા માટે JavaScript નો ઉપયોગ કરતી સાઇટ્સને અનબ્લોક કરે છે. જો સામાન્ય મોડ કામ ન કરે તો જ ઉપયોગ કરો — આનાથી કેટલાક ઇન્ટરેક્ટિવ પેજ બગડી શકે છે.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "આ એક્સ્ટેંશન સક્ષમ કરવાથી તમે મર્યાદિત ટેક્સ્ટ પસંદગીવાળા વેબ પૃષ્ઠો પર મુક્તપણે ટેક્સ્ટ પસંદ અને કોપી કરી શકો છો.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

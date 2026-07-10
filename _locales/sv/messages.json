@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Aktivera textmarkering",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Tvingar user-select-egenskapen att aktiveras på alla element.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Aktivera textmarkering",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Aggressivt läge",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Avblockerar webbplatser som använder JavaScript för att inaktivera markering. Använd endast om normalt läge inte fungerar – detta kan störa vissa interaktiva sidor.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Om du aktiverar det här tillägget kan du fritt markera och kopiera text på webbsidor som kan ha begränsad textmarkering.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

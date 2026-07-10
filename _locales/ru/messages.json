@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Разрешить выделение текста",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Принудительно включает свойство user-select для всех элементов на странице.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Включить выделение текста",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Агрессивный режим",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Разблокирует сайты, использующие JavaScript для запрета выделения. Используйте только если обычный режим не работает — это может нарушить работу некоторых интерактивных страниц.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Включение этого расширения позволит вам свободно выделять и копировать текст на веб-страницах, где стандартное выделение заблокировано.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

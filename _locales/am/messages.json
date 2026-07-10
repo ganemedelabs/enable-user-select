@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "የተጠቃሚ ምርጫን አብራ",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "በሁሉም ክፍሎች ላይ የፅሁፍ ምርጫ ንብረትን በግድ ያበራል።",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "የፅሁፍ ምርጫን አብራ",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "ኃይለኛ ሁነታ (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "ምርጫን ለማሰናከል ጃቫስክሪፕት የሚጠቀሙ ድረ-ገጾችን ይከፍታል። መደበኛው ሁነታ ካልሰራ ብቻ ይጠቀሙበት — ይህ አንዳንድ በይነተገናኝ ገጾችን ሊያበላሽ ይችላል።",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "ይህን ቅጥያ ማብራት የፅሁፍ ምርጫ በተገደበባቸው ድረ-ገጾች ላይ ፅሁፍን በነፃነት ለመምረጥ እና ለመቅዳት ያስችልዎታል።",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Luba teksti valimine",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Sunnib atribuudi user-select lubamist kõigil elementidel.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Luba teksti valimine",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agressiivne režiim",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Blokeeringust vabastamine saitidel, mis kasutavad valimise keelamiseks JavaScripti. Kasutage ainult siis, kui tavarežiim ei tööta — see võib mõne interaktiivse lehe toimimise rikkuda.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Selle laienduse lubamine võimaldab teil vabalt valida ja kopeerida teksti veebilehtedel, kus teksti valimine võib olla piiratud.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

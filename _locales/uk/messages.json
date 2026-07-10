@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Дозволити виділення тексту",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Примусово вмикає властивість user-select для всіх елементів.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Увімкнути виділення тексту",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Агресивний режим",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Розблоковує сайти, які використовують JavaScript для вимкнення виділення. Використовуйте лише якщо звичайний режим не працює — це може порушити роботу деяких інтерактивних сторінок.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Ввімкнення цього розширення дозволить вам вільно виділяти та копіювати текст на веб-сторінках, де стандартне виділення заблоковано.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

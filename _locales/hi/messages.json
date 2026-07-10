@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "टेक्स्ट चयन सक्षम करें (Enable User Select)",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "सभी एलिमेंट्स पर user-select प्रॉपर्टी को जबरन सक्षम करता है।",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "टेक्स्ट चयन सक्षम करें",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "आक्रामक मोड (Aggressive mode)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "उन साइटों को अनलॉक करता है जो चयन को अक्षम करने के लिए जावास्क्रिप्ट (JavaScript) का उपयोग करती हैं। केवल तभी उपयोग करें जब सामान्य मोड काम न करे — इससे कुछ इंटरैक्टिव पेज प्रभावित हो सकते हैं।",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "इस एक्सटेंशन को सक्षम करने से आप उन वेब पेजों पर स्वतंत्र रूप से टेक्स्ट को चुन और कॉपी कर सकते हैं जहाँ टेक्स्ट चयन प्रतिबंधित हो सकता है।",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

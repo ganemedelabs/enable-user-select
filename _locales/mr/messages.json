@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "टेक्स्ट निवड सक्षम करा",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "सर्व एलिमेंट्सवर user-select प्रॉपर्टी सक्तीने सक्षम करते.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "टेक्स्ट निवड सक्षम करा",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "आक्रमक मोड (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "निवड अक्षम करण्यासाठी JavaScript वापरणाऱ्या साइट्स अनब्लॉक करते. सामान्य मोड काम करत नसल्यास फक्त तेव्हाच वापरा — यामुळे काही परस्परसंवादी (interactive) पृष्ठे बिघडू शकतात.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "हे एक्स्टेंशन सक्षम केल्याने आपण प्रतिबंधित मजकूर निवड असलेल्या वेब पृष्ठांवर मुक्तपणे मजकूर निवडू आणि कॉपी करू शकता.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

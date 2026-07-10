@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Habilita la selecció de text",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Força l'activació de la propietat user-select en tots els elements.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Habilita la selecció de text",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Mode agressiu",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Desbloqueja els llocs que utilitzen JavaScript per desactivar la selecció. Utilitzeu-lo només si el mode normal no funciona; això pot fallar en algunes pàgines interactives.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "L'habilitació d'aquesta extensió us permet seleccionar i copiar text lliurement a les pàgines web que puguin tenir la selecció de text restringida.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

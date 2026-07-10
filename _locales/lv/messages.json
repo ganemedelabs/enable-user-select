@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Iespējot teksta iezīmēšanu",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Piespiedu kārtā iespējo „user-select” rekvizītu visiem elementiem.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Iespējot teksta iezīmēšanu",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agresīvais režīms",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Atbloķē vietnes, kas izmanto JavaScript, lai atspējotu iezīmēšanu. Izmantojiet tikai tad, ja normālais režīms nedarbojas — tas var sabojāt dažas interaktīvās lapas.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Šī paplašinājuma iespējošana ļauj brīvi iezīmēt un kopēt tekstu tīmekļa lapās, kurās var būt ierobežota teksta izvēle.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

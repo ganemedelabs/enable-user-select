@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "Metin Seçimini Etkinleştir",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Tüm öğelerde user-select özelliğinin etkinleştirilmesini zorunlu kılar.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "Metin seçimini etkinleştir",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "Agresif mod",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "Seçimi devre dışı bırakmak için JavaScript kullanan sitelerin engellemesini kaldırır. Yalnızca normal mod çalışmadığında kullanın — bu, bazı etkileşimli sayfaları bozabilir.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "Bu uzantıyı etkinleştirmek, metin seçimi kısıtlanmış olabilecek web sayfalarında metni özgürce seçmenize ve kopyalamanıza olanak tanır.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}

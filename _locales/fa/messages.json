@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+        "message": "فعال‌سازی انتخاب متن",
+        "description": "The name of the extension"
+    },
+    "extensionDescription": {
+        "message": "اجبار به فعال شدن ویژگی user-select در تمامی عناصر صفحه.",
+        "description": "The description of the extension"
+    },
+    "toggleNormalLabel": {
+        "message": "فعال‌سازی انتخاب متن",
+        "description": "Label for the main toggle switch to enable/disable text selection"
+    },
+    "toggleAggressiveLabel": {
+        "message": "حالت تهاجمی (Aggressive)",
+        "description": "Label for the secondary toggle switch to enable aggressive bypassing tools"
+    },
+    "toggleAggressiveDesc": {
+        "message": "آنبلاک کردن سایت‌هایی که از جاوا اسکریپت برای غیرفعال کردن انتخاب متن استفاده می‌کنند. فقط در صورتی استفاده کنید که حالت عادی کار نکند — این کار ممکن است کارکرد برخی صفحات تعاملی را مختل کند.",
+        "description": "Explanatory note on what aggressive mode does and its potential risks"
+    },
+    "infoBoxText": {
+        "message": "فعال کردن این افزونه به شما اجازه می‌دهد در صفحات وب که انتخاب متن در آن‌ها محدود شده است، به راحتی متن را انتخاب کرده و کپی کنید.",
+        "description": "General description text inside the information box at the bottom of the popup"
+    }
+}
