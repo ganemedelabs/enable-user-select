@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #3368d1;
-    --secondary-color: #214282;
+    --primary-color: #0f5bec;
+    --secondary-color: #153b82;
 
     --background-color: #f9f9f9;
     --primary-text-color: #333;
@@ -50,6 +50,10 @@ h1 {
     color: var(--primary-color);
     margin-bottom: 20px;
     margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 small {
@@ -63,7 +67,10 @@ small {
     padding: calc(var(--font-size) / 1.2);
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #00000026;
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.05),
+        0 4px 6px rgba(0, 0, 0, 0.03),
+        0 10px 20px rgba(0, 0, 0, 0.03);
 }
 
 .toggle-label {
@@ -104,7 +111,14 @@ small {
     bottom: 0;
     background-color: var(--toggle-off-color);
     border-radius: calc(var(--toggle-size) / 2);
-    transition: transform 0.2s ease-out;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.toggle-input:disabled + .toggle-slider {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .toggle-slider:before {
@@ -142,6 +156,14 @@ small {
     transform: translateX(calc(var(--toggle-width) - var(--toggle-slider-size) - 8px));
 }
 
+.toggle-input:checked:hover + .toggle-slider {
+    background-color: oklch(from var(--toggle-on-color) calc(l - 0.1) c h);
+}
+
+.toggle-input:hover + .toggle-slider {
+    background-color: oklch(from var(--toggle-off-color) calc(l - 0.1) c h);
+}
+
 html[dir="rtl"] .toggle-input:checked + .toggle-slider:before {
     transform: translateX(calc(-1 * (var(--toggle-width) - var(--toggle-slider-size) - 8px)));
 }
@@ -157,4 +179,34 @@ html[dir="rtl"] .toggle-input:checked + .toggle-slider:before {
     font-size: calc(var(--font-size) / 1.2);
     text-align: start;
     line-height: 1.4;
+}
+
+/* Action Button */
+
+.action-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.action-btn:hover {
+    background-color: oklch(from var(--primary-color) calc(l - 0.1) c h);
+}
+
+.action-btn:active {
+    transform: scale(0.98);
 }

@@ -8,10 +8,10 @@ This Chrome extension forces the `user-select` property to be enabled on all ele
 
 ## 📋 Table of Contents
 
--   [Installation](#-installation)
--   [Usage](#-usage)
--   [License](#-license)
--   [Contact](#-contact)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [License](#-license)
+- [Contact](#-contact)
 
 ## 🔧 Installation
 
@@ -22,9 +22,10 @@ This Chrome extension forces the `user-select` property to be enabled on all ele
 
 ## 🚀 Usage
 
--   Click on the extension icon in the Chrome toolbar.
--   Use the toggle checkbox to enable or disable text selection on the current web page.
--   Enable `agressive mode` to unblock sites that use JavaScript to disable selection. Use only if normal mode doesn't work because this may break some interactive pages.
+- Click on the extension icon in the Chrome toolbar.
+- Use the toggle checkbox to enable or disable text selection on the current web page.
+- Enable `agressive mode` to unblock sites that use JavaScript to disable selection. Use only if normal mode doesn't work because this may break some interactive pages.
+- Click `Copy Page to New Tab` to capture a clean, script-free snapshot of the current page into a sandboxed new tab—perfect for websites where aggressive mode still fails to bypass anti-copy protections.
 
 ## 📜 License
 
