@@ -25,7 +25,7 @@ const CSS_RULES = `
 
 const FULL_STYLES = `${TARGET_SELECTORS} { \n${CSS_RULES}\n}`;
 
-const RESTRICTIVE_EVENTS = ["copy", "cut", "paste", "select", "selectstart", "contextmenu", "dragstart"];
+const RESTRICTIVE_EVENTS = ["copy", "cut", "select", "selectstart"];
 
 const baseStyle = document.createElement("style");
 baseStyle.id = "userSelectBase";

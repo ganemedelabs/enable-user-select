@@ -1,0 +1,66 @@
+name: Safari extension
+
+on:
+    push:
+        tags: ["v*"]
+    workflow_dispatch:
+
+env:
+    APP_NAME: Enable User Select
+    BUNDLE_ID: com.ganemedelabs.enable-user-select
+
+permissions:
+    contents: write
+
+jobs:
+    convert:
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Prepare a Safari-friendly copy of the extension
+              run: |
+                  rm -rf safari-src && mkdir safari-src
+                  # Extension files live in the repo root: copy them, minus repo/CI clutter
+                  rsync -a \
+                    --exclude='.git' --exclude='.github' --exclude='.gitignore' --exclude='.gitattributes' \
+                    --exclude='node_modules' --exclude='build' --exclude='safari-src' \
+                    --exclude='*.md' --exclude='LICENSE*' --exclude='*.zip' \
+                    --exclude='package.json' --exclude='package-lock.json' \
+                    ./ safari-src/
+                  # Safari support for background service workers is inconsistent: declare both keys
+                  jq '.background += {"scripts": [.background.service_worker]}' \
+                    safari-src/manifest.json > manifest.tmp && mv manifest.tmp safari-src/manifest.json
+                  echo "VERSION=$(jq -r .version safari-src/manifest.json)" >> "$GITHUB_ENV"
+
+            - name: Convert to an Xcode project
+              run: |
+                  xcrun safari-web-extension-converter safari-src \
+                    --app-name "$APP_NAME" \
+                    --bundle-identifier "$BUNDLE_ID" \
+                    --project-location build \
+                    --copy-resources --no-open --no-prompt
+
+            - name: Check that it compiles (unsigned)
+              run: |
+                  PROJ=$(find build -maxdepth 3 -name "*.xcodeproj" | head -n 1)
+                  echo "Project: $PROJ"
+                  xcodebuild -list -project "$PROJ"
+                  xcodebuild build -project "$PROJ" -scheme "$APP_NAME (macOS)" \
+                    -destination 'generic/platform=macOS' \
+                    CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO
+
+            - name: Zip the Xcode project
+              run: |
+                  cd build && zip -qr "../safari-xcode-project-v${VERSION}.zip" .
+
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: safari-xcode-project
+                  path: safari-xcode-project-v*.zip
+
+            - name: Attach to GitHub Release
+              if: startsWith(github.ref, 'refs/tags/')
+              uses: softprops/action-gh-release@v2
+              with:
+                  files: safari-xcode-project-v*.zip
