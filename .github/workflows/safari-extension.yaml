@@ -70,3 +70,18 @@ jobs:
               uses: softprops/action-gh-release@v2
               with:
                   files: safari-xcode-project-v*.zip
+
+            - name: Move the nightly tag
+              if: github.ref == 'refs/heads/main'
+              run: |
+                  git tag -f nightly
+                  git push -f origin nightly
+
+            - name: Publish nightly prerelease
+              if: github.ref == 'refs/heads/main'
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: nightly
+                  name: Nightly build (v${{ env.VERSION }})
+                  prerelease: true
+                  files: safari-xcode-project-v*.zip
