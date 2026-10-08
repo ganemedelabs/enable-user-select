@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "__MSG_extensionName__",
     "author": "ganemedelabs",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "__MSG_extensionDescription__",
     "default_locale": "en",
     "permissions": ["activeTab", "storage", "scripting"],
@@ -11,8 +11,13 @@
         "default_title": "__MSG_extensionName__",
         "default_popup": "popup.html"
     },
-    "background": {
-        "service_worker": "background.js"
+    "background": { "service_worker": "background.js", "scripts": ["background.js"] },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "enable-user-select@ganemedelabs",
+            "strict_min_version": "142.0",
+            "data_collection_permissions": { "required": ["none"] }
+        }
     },
     "content_scripts": [
         {

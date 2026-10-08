@@ -2,8 +2,14 @@ name: Safari extension
 
 on:
     push:
+        branches: ["**"]
         tags: ["v*"]
+    pull_request:
     workflow_dispatch:
+
+concurrency:
+    group: safari-${{ github.ref }}
+    cancel-in-progress: true
 
 env:
     APP_NAME: Enable User Select
